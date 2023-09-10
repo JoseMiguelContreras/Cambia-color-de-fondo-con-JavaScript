@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* para centralizar los botones*/
+.boton {
+    text-align: center;
+	padding: 10px;
+}
+
+
+#color-buttom, #paragraph-buttom {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Verdana;
+    border-radius:30px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+
+#color-buttom,#paragraph-buttom{
+    background-color: rgb(10, 178, 255);
+}
+
+
